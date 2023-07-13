@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///D:/%23Placement/4_CS/Web%20Dev/Projects/myCalculator/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="description" content="JavaScript calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./Calculator_files/myStyle.css">
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <h1>Basic Calculator © </h1>
+        <br>
+        <form id="myform" name="calc">
+        <input name="display" style="width: 675px; height: 100px; 
+        text-align: center; background-color: #1f80c9;"> <br>
+
+        <input type="button" value="9" onclick="calc.display.value+=&#39;9&#39;">
+        <input type="button" value="8" onclick="calc.display.value+=&#39;8&#39;">
+        <input type="button" value="7" onclick="calc.display.value+=&#39;7&#39;">
+        <input type="button" value="+" onclick="calc.display.value+=&#39;+&#39;" style="background-color: #cc5c11;"><br>
+
+        <input type="button" value="6" onclick="calc.display.value+=&#39;6&#39;">
+        <input type="button" value="5" onclick="calc.display.value+=&#39;5&#39;">
+        <input type="button" value="4" onclick="calc.display.value+=&#39;4&#39;">
+        <input type="button" value="-" onclick="calc.display.value+=&#39;-&#39;" style="background-color: #ba55d3;"><br>
+
+        <input type="button" value="3" onclick="calc.display.value+=&#39;3&#39;">
+        <input type="button" value="2" onclick="calc.display.value+=&#39;2&#39;">
+        <input type="button" value="1" onclick="calc.display.value+=&#39;1&#39;">
+        <input type="button" value="x" onclick="calc.display.value+=&#39;*&#39;" style="background-color: #7db1b2;"><br>
+  
+        <input type="button" value="0" onclick="calc.display.value+=&#39;0&#39;">
+        <input type="button" value="C" onclick="calc.display.value =&#39; &#39;" style="background-color: #c00;">
+        <input type="button" value="=" onclick="calc.display.value = eval(
+            calc.display.value)">
+        <input type="button" value="÷" onclick="calc.display.value+=&#39;/&#39;" style="background-color: green;">
+        </form>
+    
+</body></html>
